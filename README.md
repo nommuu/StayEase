@@ -1,3 +1,8 @@
 # NOVAWEAR
 
-Group Members: Villar, Edison. Bastillas, Arch jun. Buton, Jean Maica. Camingao, Nhovie.
+Group Members: 
+
+Villar, Edison 
+( YOUR NAME )
+( YOUR NAME )
+Camingao, Nhovie
