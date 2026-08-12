@@ -3,6 +3,6 @@
 Group Members: 
 
 Villar, Edison 
-( Buton, Jean Maica Cris )
+Buton, Jean Maica Cris 
 ( YOUR NAME )
 Camingao, Nhovie
