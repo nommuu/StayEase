@@ -1,4 +1,4 @@
-# NOVAWEAR
+# StayEase
 
 Group Members: 
 
