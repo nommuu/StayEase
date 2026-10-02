@@ -2,7 +2,7 @@
 
 Group Members: 
 
-Villar, Edison 
-Buton, Jean Maica Cris 
-Bastillas, Archjun 
-Camingao, Nhovie
+Villar, Edison. 
+Buton, Jean Maica Cris. 
+Bastillas, Archjun. 
+Camingao, Nhovie.
