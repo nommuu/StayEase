@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StayEase | Hotel Booking</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <a class="brand" href="#home">
+            <b>S</b>
+            StayEase
+        </a>
+
+
+        <nav>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#rooms">
+                Rooms
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#bookings">
+                My Bookings
+            </a>
+
+        </nav>
+
+
+        <a class="outline" href="#rooms">
+            Book a Stay
+        </a>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="home" class="hero">
+
+            <div class="heroText">
+
+                <small>
+                    COMFORT • SIMPLICITY • STAY
+                </small>
+
+                <h1>
+                    Your stay,
+                    <br>
+                    <i>made easy.</i>
+                </h1>
+
+                <p>
+                    Find a room, choose your dates,
+                    and reserve your stay without the hassle.
+                </p>
+
+                <a class="btn light" href="#rooms">
+                    Explore Rooms
+                </a>
+
+            </div>
+
+
+
+            <!-- Booking Search -->
+
+            <form id="search" class="search">
+
+                <label>
+
+                    Check-in
+
+                    <input
+                        id="in"
+                        type="date"
+                        required>
+
+                </label>
+
+
+                <label>
+
+                    Check-out
+
+                    <input
+                        id="out"
+                        type="date"
+                        required>
+
+                </label>
+
+
+                <label>
+
+                    Guests
+
+                    <select id="guests">
+
+                        <option value="1">
+                            1
+                        </option>
+
+                        <option value="2" selected>
+                            2
+                        </option>
+
+                        <option value="3">
+                            3
+                        </option>
+
+                        <option value="4">
+                            4
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+                <button class="btn dark">
+
+                    Check Availability
+
+                </button>
+
+            </form>
+
+        </section>
+
+
+
+        <!-- =========================
+             ROOMS
+        ========================== -->
+
+        <section id="rooms" class="section">
+
+            <div class="heading">
+
+                <div>
+
+                    <small>
+                        STAY YOUR WAY
+                    </small>
+
+                    <h2>
+                        Choose your room
+                    </h2>
+
+                    <p class="sectionIntro">
+                        Comfortable rooms designed for
+                        short stays, family trips, and
+                        relaxing getaways.
+                    </p>
+
+                </div>
+
+
+                <div class="filters">
+
+                    <select id="type">
+
+                        <option value="all">
+                            All room types
+                        </option>
+
+                        <option value="Standard">
+                            Standard
+                        </option>
+
+                        <option value="Deluxe">
+                            Deluxe
+                        </option>
+
+                        <option value="Suite">
+                            Suite
+                        </option>
+
+                    </select>
+
+
+                    <select id="sort">
+
+                        <option value="rec">
+                            Recommended
+                        </option>
+
+                        <option value="low">
+                            Price: Low to High
+                        </option>
+
+                        <option value="high">
+                            Price: High to Low
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- Rooms appear here -->
+
+            <div id="grid" class="grid"></div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FEATURES
+        ========================== -->
+
+        <section class="features">
+
+            <div>
+
+                <b>01</b>
+
+                <h3>
+                    Clear availability
+                </h3>
+
+                <p>
+                    See rooms available for your
+                    selected dates before booking.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <b>02</b>
+
+                <h3>
+                    Conflict protection
+                </h3>
+
+                <p>
+                    Overlapping reservations are
+                    automatically blocked.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <b>03</b>
+
+                <h3>
+                    Easy confirmation
+                </h3>
+
+                <p>
+                    Receive a reservation summary
+                    after completing your booking.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about" class="about">
+
+            <div class="aboutText">
+
+                <small>
+                    ABOUT STAYEASE
+                </small>
+
+                <h2>
+                    A simpler way to
+                    <i>stay.</i>
+                </h2>
+
+                <p>
+                    StayEase is a simple hotel reservation
+                    system designed to make the booking
+                    process easier for guests.
+                </p>
+
+                <p>
+                    Users can browse rooms, check
+                    availability, select their dates,
+                    and manage their reservations in one
+                    convenient place.
+                </p>
+
+            </div>
+
+
+            <div class="aboutInfo">
+
+                <div>
+                    <span>06</span>
+                    <p>Available Rooms</p>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <p>Room Categories</p>
+                </div>
+
+                <div>
+                    <span>24/7</span>
+                    <p>Online Booking</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             MY BOOKINGS
+        ========================== -->
+
+        <section id="bookings" class="section">
+
+            <small>
+                YOUR RESERVATIONS
+            </small>
+
+            <h2>
+                My Bookings
+            </h2>
+
+            <div id="bookingList"></div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         BOOKING MODAL
+    ========================== -->
+
+    <div id="modal" class="modal hidden">
+
+        <div class="backdrop" data-close></div>
+
+
+        <div class="box">
+
+            <button class="x" data-close>
+                ×
+            </button>
+
+
+            <div id="modalBody"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Toast notification -->
+
+    <div id="toast" class="toast"></div>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <a class="brand" href="#home">
+
+            <b>S</b>
+
+            StayEase
+
+        </a>
+
+
+        <span>
+            Hotel Reservation & Booking System
+        </span>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
